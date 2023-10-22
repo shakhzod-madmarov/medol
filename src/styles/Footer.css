@@ -1,0 +1,189 @@
+footer {
+  background: url("../images/blur-hospital-clinic-interior.png"), lightgray;
+  background-position: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-width: 100vw;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer h4 {
+  color: #595959;
+  letter-spacing: 1.04px;
+  font-size: 20px;
+}
+
+.footerTop {
+  width: 71.7%;
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.leftSide {
+  width: 50.8%;
+}
+
+.contactsFooter {
+  display: flex;
+  gap: 30px;
+}
+
+.contactsFooter h4 {
+  margin-top: 3px;
+  margin-left: 2.5px;
+}
+
+.footerContactsList {
+  display: flex;
+  flex-wrap: wrap;
+  width: 520px;
+  gap: 18.5px;
+  justify-content: space-between;
+  padding-right: 8px;
+}
+
+.footerContactsItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.1;
+  letter-spacing: 0.8px;
+  color: #5a5a5a;
+  font-size: 12px;
+}
+
+.footerContactsItem img {
+  width: 21px;
+  height: 21px;
+  padding: 10px;
+  margin-right: 15px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.submitApplicationLink {
+  border-radius: 35px;
+  opacity: 0.9;
+  background: linear-gradient(90deg, #0d4c93 0%, #00c9c9 100%);
+  padding: 12px 25px;
+  color: #fff;
+  letter-spacing: 1.1px;
+  font-size: 15px;
+}
+
+.phoneNumberFooter {
+  padding-right: 14px;
+}
+
+.mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+}
+
+.mission img {
+  width: 163px;
+  margin-top: 18px;
+}
+
+.mission p {
+  padding-top: 36px;
+  letter-spacing: 0.85px;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+.rightSide {
+  display: flex;
+  font-size: 13.5px;
+}
+
+.aboutCompanyFooter {
+  width: 170px;
+  margin-left: 30px;
+}
+
+.aboutCompanyFooter li,
+.productionFooter li,
+.servicesFooter li {
+  margin-top: 6px;
+}
+
+.productionFooter {
+  width: 220px;
+}
+
+.servicesFooter {
+  width: 120px;
+}
+
+.footerBottom {
+  margin-top: 4px;
+  display: flex;
+  justify-content: space-between;
+  width: 70.8vw;
+  font-size: 15.7px;
+}
+
+.footerBottom span {
+  color: #00c9c9;
+  padding-right: 10px;
+}
+
+@media (max-width: 1150px) {
+  .rightSide {
+    display: none;
+  }
+  .leftSide {
+    width: 100%;
+  }
+}
+
+@media (max-width: 850px) {
+  .footerTop,
+  .footerBottom {
+    width: 95%;
+  }
+}
+
+@media (max-width: 650px) {
+  .footerTop{
+    position: relative;
+    padding-top: 100px;
+  }
+  
+  .contactsFooter,
+  .footerContactsList {
+    display: block;
+    width: 100%;
+  }
+  
+  .footerContactsItem {
+    margin: 20px 0;
+    justify-content: flex-start;
+  }
+
+  .mission img {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 80%;
+  }
+
+  .mission p{
+    padding: 0;
+  }
+
+  .footerBottom{
+    margin-bottom: 15px;
+  }
+
+  .madeBy {
+    display: none;
+  }
+}

@@ -1,0 +1,35 @@
+.partnersSlider {
+  width: 65vw;
+  margin-bottom: 80px;
+}
+
+.partnerImg {
+  padding: 3px 42px;
+  width: 130px;
+  border-radius: 25px;
+  border: 1px solid #ececec;
+  background: #fff;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+
+.nextPartnerSlide,
+.prevPartnerSlide {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.nextPartnerSlide {
+    right: -45px;
+  top: 46%;
+  transform: translateY(-50%);
+}
+
+.prevPartnerSlide {
+  left: -45px;
+  bottom: 53.5%;
+  transform: translateY(50%);
+}

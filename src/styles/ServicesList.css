@@ -1,0 +1,9 @@
+.servicesList {
+  background: url("../images/services-bg.png"), lightgray 50% / cover no-repeat;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 65px 0;
+  gap: 80px;
+}
