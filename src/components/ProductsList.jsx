@@ -1,4 +1,4 @@
-import { ProductsRendering } from "../helpers/ProductsRendering";
+import { ProductsRendering } from "../helpers/renders/ProductsRendering";
 import { ProductsItem } from "./ProductsItem";
 
 import "../styles/ProductsList.css"

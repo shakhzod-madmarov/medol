@@ -1,16 +1,16 @@
 import { ProductsList } from "../components/ProductsList";
 
-import "../styles/AboutCompany.css";
+import "../styles/pages/AboutCompany.css";
 
 import Arrow from "../images/up-arrow-(1).svg";
 import Logo from "../images/logo.png";
 import Ellipse1 from "../images/Ellipse4.svg";
 import Ellipse2 from "../images/Ellipse5.svg";
 import Ellipse3 from "../images/Ellipse6.svg";
-import { PromotionsNewsSlider } from "../helpers/PromotionsNewsSlider";
-import { PartnersSlider } from "../helpers/PartnersSlider";
-import { HeaderSlider } from "../helpers/HeaderSlider";
-import ServicesSlider from "../helpers/ServicesSlider";
+import { PromotionsNewsSlider } from "../helpers/sliders/PromotionsNewsSlider";
+import { PartnersSlider } from "../helpers/sliders/PartnersSlider";
+import { HeaderSlider } from "../helpers/sliders/HeaderSlider";
+import ServicesSlider from "../helpers/sliders/ServicesSlider";
 
 export const AboutCompany = () => {
   return (

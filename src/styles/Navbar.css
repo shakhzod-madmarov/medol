@@ -136,15 +136,15 @@
 }
 
 .navMenu {
-  cursor: pointer;
-  display: none !important;
-  justify-content: center;
-  align-items: center;
-  border-radius: 15px;
+  display: none;
   background: #fff;
+  cursor: pointer;
+  justify-content: center;
+  border-radius: 15px;
+  align-items: center;
   width: 45px;
-  height: 35px;
-  margin-top: 10px;
+  height: 45px;
+  margin-top: 5px;
 }
 
 @media (max-width: 1250px) {
@@ -182,8 +182,12 @@
 }
 
 @media (max-width: 1000px) {
+  .navbar {
+    margin: 0 20px;
+  }
+
   .navIcons {
-    width: 90%;
+    width: 100%;
     display: flex;
   }
   .navContactsList {
@@ -221,17 +225,49 @@
   }
 
   .linksList {
-    display: none;
+    width: 100%;
+    justify-content: space-around;
+    transform: translateX(100%);
+    transition: 0.5s ease;
+  }
+
+  .linksListActive {
+    transform: translateX(0);
+  }
+
+  .linksItem {
+    padding: 0 10px;
   }
 
   .navMenu {
-    display: flex !important;
+    display: flex;
   }
 }
 
 @media (max-width: 530px) {
-  .locationImg, .searchImg {
+  .locationImg,
+  .searchImg {
     display: none !important;
   }
-  
+
+  .navbar {
+    margin: 0 10px;
+    position: relative;
+  }
+
+  .linksList {
+    flex-wrap: wrap;
+    height: auto;
+    width: 90%;
+    gap: 10px;
+    position: absolute;
+    top: 150px;
+    background: #fff;
+    z-index: 1;
+  }
+
+  .linksItem {
+    padding: 10px !important;
+    border: none;
+  }
 }

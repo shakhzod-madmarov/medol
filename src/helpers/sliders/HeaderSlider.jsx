@@ -2,14 +2,14 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import { Navbar } from "../components/Navbar";
+import { Navbar } from "../../components/Navbar";
 
-import Slide1 from "../images/headerSlide1.png";
-import Slide2 from "../images/headerSlide2.png";
-import Slide3 from "../images/headerSlide3.png";
-import Slide4 from "../images/headerSlide4.png";
+import Slide1 from "../../images/headerSlides/headerSlide1.png";
+import Slide2 from "../../images/headerSlides/headerSlide2.png";
+import Slide3 from "../../images/headerSlides/headerSlide3.png";
+import Slide4 from "../../images/headerSlides/headerSlide4.png";
 
-import "../styles/headerSlider.css";
+import "../../styles/sliders/HeaderSlider.css";
 
 export const HeaderSlider = () => {
   const settings = {

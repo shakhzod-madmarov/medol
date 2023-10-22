@@ -1,3 +1,7 @@
+import { Navbar } from "../components/Navbar"
+
 export const Store = () => {
-    return(<><h1>Store</h1></>)
+    return (<>
+        <Navbar/>
+        <h1>Store</h1></>)
 }

@@ -2,10 +2,10 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import { ServicesRendering } from "./ServicesRendering";
-import { ServicesItem } from "../components/ServicesItem";
+import { ServicesRendering } from "../renders/ServicesRendering";
+import { ServicesItem } from "../../components/ServicesItem";
 
-import "../styles/ServicesSlider.css";
+import "../../styles/sliders/ServicesSlider.css";
 
 const ServicesSlider = () => {
   const settings = {

@@ -1,4 +1,4 @@
-import { PromotionsNewsRendering } from "../helpers/PromotionsNewsRendering";
+import { PromotionsNewsRendering } from "../helpers/renders/PromotionsNewsRendering";
 import { PromotionsNewsItem } from "./PromotionsNewsItem";
 
 import "../styles/PromotionsNewList.css";

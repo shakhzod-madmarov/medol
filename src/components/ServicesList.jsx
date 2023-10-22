@@ -1,4 +1,4 @@
-import { ServicesRendering } from "../helpers/ServicesRendering";
+import { ServicesRendering } from "../helpers/renders/ServicesRendering";
 import { ServicesItem } from "./ServicesItem";
 
 import "../styles/ServicesList.css"

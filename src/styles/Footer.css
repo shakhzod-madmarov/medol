@@ -8,6 +8,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
 
 footer h4 {
@@ -75,6 +76,11 @@ footer h4 {
   font-size: 15px;
 }
 
+.submitApplicationLink:hover{
+  background: #fff !important;
+  color: #0d4c93;
+}
+
 .phoneNumberFooter {
   padding-right: 14px;
 }
@@ -101,6 +107,12 @@ footer h4 {
 .rightSide {
   display: flex;
   font-size: 13.5px;
+}
+
+.rightSide a:hover{
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 5px;
 }
 
 .aboutCompanyFooter {

@@ -1,9 +1,9 @@
-import EndovHirurgiya from "../images/endeavor-large.png";
-import EabDiag from "../images/img6.png";
-import CardioHirurgiya from "../images/gallery_cs300_1.png";
-import Diabet from "../images/754-1.png";
-import Endourologiya from "../images/img5.png";
-import Aritmologiya from "../images/pacemaker-advisa-mrishtsh222.png";
+import EndovHirurgiya from "../../images/products/endeavor-large.png";
+import EabDiag from "../../images/products/img6.png";
+import CardioHirurgiya from "../../images/products/gallery_cs300_1.png";
+import Diabet from "../../images/products/754-1.png";
+import Endourologiya from "../../images/products/img5.png";
+import Aritmologiya from "../../images/products/pacemaker-advisa-mrishtsh222.png";
 
 export const ProductsRendering = [
   {

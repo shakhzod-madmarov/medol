@@ -1,6 +1,6 @@
-import Service1 from "../images/service-1.png";
-import Registration from "../images/registration.png";
-import Logistics from "../images/logistics.png";
+import Service1 from "../../images/services/service-1.png";
+import Registration from "../../images/services/registration.png";
+import Logistics from "../../images/services/logistics.png";
 
 export const ServicesRendering = [
   {

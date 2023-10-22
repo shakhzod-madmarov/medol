@@ -107,6 +107,10 @@
   padding: 10px 50px;
 }
 
+.learnMore:hover {
+  background: linear-gradient(90deg, #00c9c9 0%, #0d4c93 100%);
+}
+
 .partnersSection {
   display: flex;
   flex-direction: column;
@@ -169,23 +173,23 @@
 }
 
 @media (max-width: 850px) {
-  .ellipses{
+  .ellipses {
     display: none;
   }
 
-  .aboutDetail{
+  .aboutDetail {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .aboutDetail p{
+  .aboutDetail p {
     padding: 25px;
     margin: 0;
   }
 
-  .learnMore{
+  .learnMore {
     margin: 0;
     left: 50%;
   }

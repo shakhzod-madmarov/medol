@@ -1,4 +1,4 @@
-import PromNews1 from "../images/promotionsNews1.png";
+import PromNews1 from "../../images/promotionsNews/promotionsNews1.png";
 
 export const PromotionsNewsRendering = [
   {

@@ -1,3 +1,7 @@
+import { Navbar } from "../components/Navbar"
+
 export const Products = () => {
-    return(<><h1>Products</h1></>)
+    return (<>
+        <Navbar/>
+        <h1>Products</h1></>)
 }

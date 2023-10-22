@@ -1,5 +1,5 @@
 header {
-  background: url("../images/blur-hospital-1.png"), lightgray;
+  background: url("../../images/blur-hospital-1.png"), lightgray;
   background-position: 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -103,7 +103,7 @@ header {
     padding-left: 160px;
   }
 
-  .headerFigure{
+  .headerFigure {
     top: 250px;
     right: 50px;
     width: 30%;
@@ -114,8 +114,8 @@ header {
   header {
     min-width: 100vw;
   }
-  
-  .headerContent{
+
+  .headerContent {
     width: 100%;
     padding: 0;
     display: flex;
@@ -123,11 +123,11 @@ header {
     justify-content: center;
   }
 
-  .headerDetails{
-      width: 90%;
-    }
+  .headerDetails {
+    width: 90%;
+  }
 
-    .headerFigure img{
-      display: none;
-    }
+  .headerFigure img {
+    display: none;
+  }
 }

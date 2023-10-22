@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { useState } from "react";
+import { Link } from "react-router-dom";
 
 import "../styles/Navbar.css";
 
@@ -12,19 +12,26 @@ import flagRussia from "../images/Flag_of_Russia.png";
 import navMenu from "../images/navMenu.png";
 
 export const Navbar = () => {
+  const [activeNavLink, setActiveNavLink] = useState("linksList");
+  const navMenuToggler = () => {
+    activeNavLink === "linksList"
+      ? setActiveNavLink("linksList linksListActive")
+      : setActiveNavLink("linksList");
+  };
+
   return (
     <nav className="navbar">
       <div className="navIcons">
         <ul className="navContactsList">
           <li className="navContactsItem">
-            <img src={locationLogo} alt="location" className="locationImg"/>
+            <img src={locationLogo} alt="location" className="locationImg" />
             <p>
               г.Ташкент, Чиланзар
               <br /> 10 квартал, дом 3/1
             </p>
           </li>
           <li className="navContactsItem">
-            <img src={phoneLogo} alt="phone-number" className="phoneImg"/>
+            <img src={phoneLogo} alt="phone-number" className="phoneImg" />
             <div>
               <a href="tel">+998 71 276-62-53</a>
               <br />
@@ -39,7 +46,7 @@ export const Navbar = () => {
           <li className="navSocialsItem">
             <label>
               <a href="#search">
-                <img src={searchLogo} alt="search-logo" className="searchImg"/>
+                <img src={searchLogo} alt="search-logo" className="searchImg" />
               </a>
               <input type="text" placeholder="Поиск по сайту"></input>
             </label>
@@ -65,11 +72,11 @@ export const Navbar = () => {
             <option className="ru">Русский</option>
           </select>
         </label>
-        <div className="navMenu">
+        <button onClick={navMenuToggler} className="navMenu">
           <img src={navMenu} alt="menu" className="navMenuImg" />
-        </div>
+        </button>
       </div>
-      <ul className="linksList">
+      <ul className={activeNavLink}>
         <li className="linksItem">
           <Link to="/store"> МАГАЗИН </Link>
         </li>

@@ -2,12 +2,12 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import { PartnersRendering } from "./PartnersRendering";
+import { PartnersRendering } from "../renders/PartnersRendering";
 
-import PrevArrowImg from "../images/Group 15.png";
-import NextArrowImg from "../images/Group 14.png";
+import PrevArrowImg from "../../images/Group 15.png";
+import NextArrowImg from "../../images/Group 14.png";
 
-import "../styles/PartnersSlider.css";
+import "../../styles/sliders/PartnersSlider.css";
 
 export const PartnersSlider = () => {
   function SampleNextArrow(props) {
@@ -67,7 +67,7 @@ export const PartnersSlider = () => {
   const partners = PartnersRendering.map((partner) => {
     return (
       <div key={partner.id} className="partner">
-        <img className="partnerImg" src={partner.image} alt="partner"/>
+        <img className="partnerImg" src={partner.image} alt="partner" />
       </div>
     );
   });

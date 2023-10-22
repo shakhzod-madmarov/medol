@@ -2,14 +2,14 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import { PromotionsNewsRendering } from "./PromotionsNewsRendering";
-import { PromotionsNewsItem } from "../components/PromotionsNewsItem";
+import { PromotionsNewsRendering } from "../renders/PromotionsNewsRendering";
+import { PromotionsNewsItem } from "../../components/PromotionsNewsItem";
 
-import Arrow from "../images/up-arrow-(1).svg";
-import PrevArrowImg from "../images/Group 15.png";
-import NextArrowImg from "../images/Group 14.png";
+import Arrow from "../../images/up-arrow-(1).svg";
+import PrevArrowImg from "../../images/Group 15.png";
+import NextArrowImg from "../../images/Group 14.png";
 
-import "../styles/PromotionsNewsSlider.css";
+import "../../styles/sliders/PromotionsNewsSlider.css";
 
 export const PromotionsNewsSlider = () => {
   function SampleNextArrow(props) {

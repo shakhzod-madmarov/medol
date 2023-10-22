@@ -38,11 +38,13 @@
   opacity: 0.9;
   background: linear-gradient(90deg, #0d4c93 0%, #00c9c9 100%);
   color: #fff;
+  transition: all 0.8s ease;
 }
 
 .productLink:hover {
-  background-color: #fff;
-  color: linear-gradient(90deg, #0d4c93 0%, #00c9c9 100%);
+  background: #fff;
+  color: #0d4c93;
+  border: 1px solid #00c9c9;
 }
 
 @media (max-width: 800px) {
@@ -50,7 +52,7 @@
     width: 200px;
   }
 
-  .productLink{
+  .productLink {
     padding: 8px;
   }
 }
