@@ -19,7 +19,7 @@
   font-size: 16px;
   letter-spacing: 0.9px;
   text-align: center;
-  color: #0D4C93;;
+  color: #0d4c93;
 }
 
 .sevicesContent p {
@@ -38,10 +38,9 @@
   padding: 10px 67px;
   margin: 17px 0 0 47px;
   color: #fff;
-  transition: font-size .3s ease;
+  transition: font-size 0.3s ease;
 }
 
-.serviceLink:hover{
+.serviceLink:hover {
   font-size: 20px;
 }
-

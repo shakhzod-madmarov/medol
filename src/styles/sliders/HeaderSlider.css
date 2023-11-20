@@ -5,6 +5,8 @@ header {
   background-repeat: no-repeat;
   max-width: 100vw;
   min-height: 100vh;
+  z-index: 1;
+  position: relative;
 }
 
 .headerContent {
@@ -12,6 +14,8 @@ header {
   flex-wrap: wrap;
   padding: 25px 0;
   padding-left: 218px;
+  position: relative;
+  z-index: 2;
 }
 
 .headerDetails {
@@ -129,5 +133,15 @@ header {
 
   .headerFigure img {
     display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .headerDetails p {
+    font-size: 15px;
+  }
+
+  .headerTitle {
+    font-size: 30px;
   }
 }

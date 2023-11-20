@@ -15,8 +15,8 @@ export const Navbar = () => {
   const [activeNavLink, setActiveNavLink] = useState("linksList");
   const navMenuToggler = () => {
     activeNavLink === "linksList"
-      ? setActiveNavLink("linksList linksListActive")
-      : setActiveNavLink("linksList");
+      ? setActiveNavLink("linksListActive", console.log("active"))
+      : setActiveNavLink("linksList", console.log("active 0"));
   };
 
   return (
@@ -82,8 +82,7 @@ export const Navbar = () => {
         </li>
         <li className="linksItem">
           <Link to="/" className="activeNavLink">
-            {" "}
-            О КОМПАНИИ{" "}
+            О КОМПАНИИ
           </Link>
         </li>
         <li className="linksItem">

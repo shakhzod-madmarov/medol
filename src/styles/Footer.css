@@ -1,14 +1,13 @@
 footer {
   background: url("../images/blur-hospital-clinic-interior.png"), lightgray;
   background-position: 50%;
-  background-size: contain;
+  background-size: auto;
   background-repeat: no-repeat;
   max-width: 100vw;
   min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 
 footer h4 {
@@ -76,7 +75,7 @@ footer h4 {
   font-size: 15px;
 }
 
-.submitApplicationLink:hover{
+.submitApplicationLink:hover {
   background: #fff !important;
   color: #0d4c93;
 }
@@ -109,7 +108,7 @@ footer h4 {
   font-size: 13.5px;
 }
 
-.rightSide a:hover{
+.rightSide a:hover {
   border-radius: 5px;
   background-color: #fff;
   padding: 5px;
@@ -135,7 +134,7 @@ footer h4 {
 }
 
 .footerBottom {
-  margin-top: 4px;
+  margin-bottom: 10px;
   display: flex;
   justify-content: space-between;
   width: 70.8vw;
@@ -161,20 +160,24 @@ footer h4 {
   .footerBottom {
     width: 95%;
   }
+  
+  .footerBottom {
+    margin: 0;
+  }
 }
 
 @media (max-width: 650px) {
-  .footerTop{
+  .footerTop {
     position: relative;
     padding-top: 100px;
   }
-  
+
   .contactsFooter,
   .footerContactsList {
     display: block;
     width: 100%;
   }
-  
+
   .footerContactsItem {
     margin: 20px 0;
     justify-content: flex-start;
@@ -184,14 +187,14 @@ footer h4 {
     position: absolute;
     top: -10px;
     left: 0;
-    width: 80%;
+    width: 200px;
   }
 
-  .mission p{
+  .mission p {
     padding: 0;
   }
 
-  .footerBottom{
+  .footerBottom {
     margin-bottom: 15px;
   }
 
